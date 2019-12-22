@@ -1,4 +1,4 @@
-#Youtube Video Analysis!
+# Youtube Video Analysis
 
 Find the most popular and least popular channel by summing up views for each channel, and similarly, find the most liked and disliked channel by summing their likes and dislikes.
 
