@@ -17,8 +17,8 @@ A business valuation is a general process of determining the economic value of a
 
 B.	The input of the project: 
 
-•	NASDAQ - Company List (NASDAQ, NYSE, & AMEX) (https://www.nasdaq.com/screening/company-list.aspx)
-•	Yahoo Finance (https://finance.yahoo.com/)
+1.	NASDAQ - Company List (NASDAQ, NYSE, & AMEX) (https://www.nasdaq.com/screening/company-list.aspx)
+2.	Yahoo Finance (https://finance.yahoo.com/)
 
 C.	The output of the project:
 
