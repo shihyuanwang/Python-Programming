@@ -1,4 +1,4 @@
-# HW6 - Video Analysis - SHIH-YUAN WANG
+# Video Analysis - SHIH-YUAN WANG
 #----------------------------------------------------------------------------------------------
 
 import csv
