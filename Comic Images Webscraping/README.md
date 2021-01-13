@@ -1,4 +1,4 @@
-# Comic Images Webscraping
+# Excercise - Comic Images Webscraping
 
 Write a python program that will download the latest 10 comic images from https://www.gocomics.com/pearlsbeforeswine/
 
