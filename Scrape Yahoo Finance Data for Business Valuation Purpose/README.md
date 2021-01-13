@@ -26,7 +26,8 @@ Used modules: sys / io / re / os / requests / BeautifulSoup / datetime / pandas
 1.	Send a request to the webpage URL and pass it into the BeautifulSoup to parse the webpage.
 2.	Find the NASDAQ, NYSE, and AMEX download links using regular expression, send a request to download csv files, and then save these files.
 
-The following steps using Apple Inc. (AAPL) and Alphabet Inc. (GOOG) to demonstrate the outputs scraped from Yahoo Finance:
+
+**The following steps using Apple Inc. (AAPL) and Alphabet Inc. (GOOG) to demonstrate the outputs scraped from Yahoo Finance:**
 
 
 **•	Input a stock ticker to download historical stock prices and get the price on the specific day.** 
