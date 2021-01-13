@@ -25,9 +25,10 @@ Used modules: sys / io / re / os / requests / BeautifulSoup / datetime / pandas
 
 The following steps using Apple Inc. (AAPL) and Alphabet Inc. (GOOG) to demonstrate the outputs scraped from Yahoo Finance:
 
+
 •	Input a stock ticker to download historical stock prices and get the price on the specific day. 
 
-Create a function “scrape_price” that allows users to input a ticker to get historical stock prices:
+  Create a function “scrape_price” that allows users to input a ticker to get historical stock prices:
 
 1.	Use datetime module to get the historical price download URL
 2.	Send a request to download the historical stock price data file and use io module to impersonate string data like a file.
@@ -36,18 +37,20 @@ Create a function “scrape_price” that allows users to input a ticker to get 
 Create a function “scrape_date_price” that allows users to input a ticker and specific date to get the stock price:
 1.	Use the data frame from “scrape_price” to get the stock price on that day.
 
+
 •	Get the latest key statistics data, including valuation measures, trading information, and financial highlights.
 
-Create a function “scrape_key_stats” that allows users to input different company tickers to compare the latest statistics data.
+  Create a function “scrape_key_stats” that allows users to input different company tickers to compare the latest statistics data.
 
 1.	Create a data frame and index to store statistics data using pandas module.
 2.	Send a request to download the company’s statistics URL and pass it into the BeautifulSoup to parse the webpage.
 3.	Find the value of each statistics element and append it to a list.
 4.	Add this company's statistics data list to the previous data frame and return the final data frame.
 
+
 •	Get annual financial statement (Balance Sheet, Income Statement, and Cash Flow) data of the company.
 
-Create a function “scrape_financials” that allows users to input a ticker and statement type to get the financial statements:
+  Create a function “scrape_financials” that allows users to input a ticker and statement type to get the financial statements:
 
 1.	Send a request to the Balance Sheet, Income Statement, or Cash Flow webpage and pass it into the BeautifulSoup to parse the webpage.
 2.	Find all table elements on the page and read this table using pandas module.
