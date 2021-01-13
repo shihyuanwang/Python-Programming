@@ -10,6 +10,6 @@ Steps:
 
 2. Extract the link to the previous image with BeautifulSoup/Requests
 
-3. Write a for loop that will run 10 times, saving the latest comic images in the same location as the ython code.
+3. Write a for loop that will run 10 times, saving the latest comic images in the same location as the python code.
 
 
