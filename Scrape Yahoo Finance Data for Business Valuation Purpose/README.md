@@ -14,3 +14,6 @@ A business valuation is a general process of determining the economic value of a
 1.	NASDAQ, NYSE, and AMEX company list csv files
 2.	Historical stock prices and the specific day stock price
 3.	Statistics: comparison of the latest key statistics data, including valuation measures, trading information, and financial highlights 
+
+
+![image](https://github.com/shihyuanwang/Python-Programming/blob/master/Scrape%20Yahoo%20Finance%20Data%20for%20Business%20Valuation%20Purpose/Flowchart.png)
