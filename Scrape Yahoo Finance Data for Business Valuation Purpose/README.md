@@ -22,14 +22,14 @@ A business valuation is a general process of determining the economic value of a
 
 Used modules: sys / io / re / os / requests / BeautifulSoup / datetime / pandas
 
-•	Create a function “download_company_list” to download NASDAQ, NYSE, & AMEX company list csv files on the NASDAQ website for ticker reference.
+**•	Create a function “download_company_list” to download NASDAQ, NYSE, & AMEX company list csv files on the NASDAQ website for ticker reference.**
 1.	Send a request to the webpage URL and pass it into the BeautifulSoup to parse the webpage.
 2.	Find the NASDAQ, NYSE, and AMEX download links using regular expression, send a request to download csv files, and then save these files.
 
 The following steps using Apple Inc. (AAPL) and Alphabet Inc. (GOOG) to demonstrate the outputs scraped from Yahoo Finance:
 
 
-•	Input a stock ticker to download historical stock prices and get the price on the specific day. 
+**•	Input a stock ticker to download historical stock prices and get the price on the specific day.** 
 
   Create a function “scrape_price” that allows users to input a ticker to get historical stock prices:
 
@@ -41,7 +41,7 @@ The following steps using Apple Inc. (AAPL) and Alphabet Inc. (GOOG) to demonstr
 1.	Use the data frame from “scrape_price” to get the stock price on that day.
 
 
-•	Get the latest key statistics data, including valuation measures, trading information, and financial highlights.
+**•	Get the latest key statistics data, including valuation measures, trading information, and financial highlights.**
 
   Create a function “scrape_key_stats” that allows users to input different company tickers to compare the latest statistics data.
 
@@ -51,7 +51,7 @@ The following steps using Apple Inc. (AAPL) and Alphabet Inc. (GOOG) to demonstr
 4.	Add this company's statistics data list to the previous data frame and return the final data frame.
 
 
-•	Get annual financial statement (Balance Sheet, Income Statement, and Cash Flow) data of the company.
+**•	Get annual financial statement (Balance Sheet, Income Statement, and Cash Flow) data of the company.**
 
   Create a function “scrape_financials” that allows users to input a ticker and statement type to get the financial statements:
 
